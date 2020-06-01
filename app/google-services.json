@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "888075749058",
+    "firebase_url": "https://geziapp-20e39.firebaseio.com",
+    "project_id": "geziapp-20e39",
+    "storage_bucket": "geziapp-20e39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888075749058:android:25964abb3b90b4a0221d5b",
+        "android_client_info": {
+          "package_name": "com.example.gezi_giris"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888075749058-hrjhlm4sqoq91874jv5vphti98jo63g3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gezi_giris",
+            "certificate_hash": "e50d9145208d64dc0dc09c2741672234d77a7821"
+          }
+        },
+        {
+          "client_id": "888075749058-dgujhbbnoc69ngfl6ejhjjp5mm6kpnsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR0Ak-DsYRy5-YCode0T8Qgm26h9mgqDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888075749058-dgujhbbnoc69ngfl6ejhjjp5mm6kpnsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/geziapp_logo2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtWelcomeAppName"
+        android:layout_marginTop="150dp"
+        android:paddingRight="125dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/geziapp_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtWelcomeAppName"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="150dp"
+        />
+    <TextView
+        android:id="@+id/txtWelcomeAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GEZİ UYGULAMASI"
+        android:textSize="35dp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        />
+    <Button
+        android:id="@+id/btnWelcomeLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/i_have_account"
+        android:background="@color/colorRedButton"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/btnWelcomeRegister"
+        android:layout_marginBottom="25dp"
+
+        />
+    <Button
+        android:id="@+id/btnWelcomeRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+    />
+
+
+
+</RelativeLayout>

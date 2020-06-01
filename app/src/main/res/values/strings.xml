@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">gezi_giris</string>
+    <string name="create_new_account">Yeni Hesap Oluştur</string>
+    <string name="i_have_account">Hesabım Var</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="password">parola</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="login_with_your_account">Hesabınızla Giriş Yapınız</string>
+    <string name="login">Giriş Yap</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="ekle">Görsel Ekle</string>
+    <string name="bilgileri_gir">Bilgileri Gir</string>
+    <string name="kaydet">Kaydet</string>
+
+</resources>
